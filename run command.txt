@@ -1,0 +1,2 @@
+
+streamlit run "C:\Users\DELL\Desktop\Heart Disease Prediction using ML(Coronary Artery Disease)\newCAD.py"
