@@ -13,12 +13,10 @@ SYNOPSIS:
 INTRODUCTION
 
           Coronary Artery Diseases are the primary cause of death over the past decade. According to the World Health Organization, every year 12 million deaths occur worldwide due to Heart Disease. Over the years, CAD can also weaken your heart and lead to complications, including Arrhythmias (like atrial fibrillation), Cardiac arrest, cardiogenic shock and Heart failure. The main problem of coronary artery disease is a heart attack. The heart muscle starts to die because it’s not receiving enough blood. Heart Disease is even highlighted as a silent killer which leads to the death of the person without obvious symptoms. The early diagnosis of heart disease plays a vital role in making decisions on lifestyle changes in high-risk patients and in turn reduces the complications. ML is an emerging application of AI that uses different analytics and statistical techniques in order to improve the performance of particular machine learning from old data.
-        The objective of this project is to check whether the patient is likely to be diagnosed with any cardiovascular heart diseases based on their medical attributes such as gender, age, chest pain, fasting sugar level, etc. This helps in early prediction of the disease and is used in many ways, where as it is being provided with the input, in order to find the heart rate based on the health condition.
+The objective of this project is to check whether the patient is likely to be diagnosed with any cardiovascular heart diseases based on their medical attributes such as gender, age, chest pain, fasting sugar level, etc. This helps in early prediction of the disease and is used in many ways, where as it is being provided with the input, in order to find the heart rate based on the health condition.
 
 OVERVIEW OF THE PROJECT
-        “This Coronary Artery Disease Prediction” website predicts the probabilities of heart condition and finally results whether  the person has defective heart or not. This website includes the symptoms and the risk factors of the Coronary Artery Disease.  
-
-        This project analyzes the supervised learning modes of Logistic Regression. The project also mention scope for future research and different advancement possibilities. This Coronary Artery disease is a chronic disease that may last for years or be lifelong. Lab tests are often required and it needs diagnosis treatment. This can only help but condition can't be cured. So this system helps to predict the Coronary Artery Disease in the earliest stage.
+        “This Coronary Artery Disease Prediction” website predicts the probabilities of heart condition and finally results whether  the person has defective heart or not. This website includes the symptoms and the risk factors of the Coronary Artery Disease. This project analyzes the supervised learning modes of Logistic Regression. The project also mention scope for future research and different advancement possibilities. This Coronary Artery disease is a chronic disease that may last for years or be lifelong. Lab tests are often required and it needs diagnosis treatment. This can only help but condition can't be cured. So this system helps to predict the Coronary Artery Disease in the earliest stage.
 
 PROPOSED SYSTEM
              The proposed system starts with the collection of data and selecting the important attributes. Then the required data is pre-processed into the required format. The data is then divided into two parts training and testing data. The algorithms are applied and the model is trained using the training data. The accuracy of the system is obtained by testing the system using the testing data. This system is implemented using the following modules.
@@ -30,8 +28,9 @@ PROPOSED SYSTEM
 
 1.) Collection of Dataset
           A dataset in machine learning is a collection of data pieces that can be treated by a computer as a single unit for analytic and prediction purposes. This means that the data collected should be made uniform and understandable for a machine that doesn't see data the same way as humans do. For this, after collecting the data, it's important to pre-process it by cleaning and completing it, as well as annotate the data by adding meaningful tags readable by a computer.
-Moreover, a good dataset should correspond to certain quality and quantity standards. For smooth and fast training, you should make sure your dataset is relevant and well-balanced. 
-            After the collection of the dataset, we split the dataset into training data and testing data. The training dataset is used for prediction model learning and testing data is used for evaluating the prediction model. For this project, 70% of training data is used and 30% of data is used for testing.
+Moreover, a good dataset should correspond to certain quality and quantity standards. For smooth and fast training, you should make sure your dataset is relevant and well-balanced. After the collection of the dataset, we split the dataset into training data and testing data. The training dataset is used for prediction model learning and testing data is used for evaluating the prediction model. For this project, 70% of training data is used and 30% of data is used for testing.
+	    
+	    
 2.) Data Pre-Processing
                  Data pre-processing is an important step for the creation of a machine learning model. Initially, data may not be clean or in the required format for the model which can cause misleading outcomes. In pre-processing of data, we transform data into our required format. It is used to deal with noises, duplicates, and missing values of the dataset. Data pre-processing has the activities like importing datasets, splitting datasets, attribute scaling, etc. Pre-processing of data is required for improving the accuracy of the model.
  
@@ -41,7 +40,6 @@ Moreover, a good dataset should correspond to certain quality and quantity stand
           In the context of Machine Learning, the split of our modelling dataset into training and testing samples is probably one of the earliest pre-processing steps that we need to undertake. The creation of different samples for training and testing helps us evaluate model performance. Scikit-learn alias sklearn is the most useful and robust library for machine learning in Python. The scikit-learn library provides us with the model_selection module in which we have the splitter function train_test_split ().
                                                      
  
-
 4.) Training the model using Logistic Regression
 LOGISTIC REGRESSION ALGORITHM
        Logistic regression is one of the most popular Machine Learning algorithms, which comes under the Supervised Learning technique. It is used for predicting the categorical dependent variable using a given set of independent variables. Logistic regression predicts the output of a categorical dependent variable. 
